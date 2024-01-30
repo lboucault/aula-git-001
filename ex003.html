@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeuPrimeiroPrograma</title>
+    <style>
+        body {
+            background-color: rgb(240, 160, 210);
+            color: blueviolet;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+  <h1>Olá, mundo!</h1>
+  <p>Já me livrei da maldição!</p>
+  <script>
+    
+    var n1 = Number (window.prompt('Digite um número: ')) // recebe valor string
+    var n2 = Number (window.prompt('Digite outro número: '))
+    var s = n1 + n2
+    window.alert(`A soma entre ${n1} + ${n2} é igual a ${s}`) + ("!") // está errado pq o 
+    // + está concatenando o n1 com n2, unindo, e não fazendo a soma das
+    // variáveis
+    // tem que ser number + number para somar
+    // se for string + string, é concatenação
+    // a variável n1 recebe a conversão de number.parseint para somar as
+    // strings na janela do prompt; se for número real, usar
+    // number.parseFloat
+    // converter número para string usa-se String ou n.toString
+
+
+  </script>
+</body>
+</html>
